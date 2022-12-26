@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    {% include 'components/includes.html' %}
+</head>
+<style>
+body{background-color:#FFE4C4;}
+</style>
+<body class="d-flex flex-column h-100">
+{% include 'components/header.html' %}
+    <div class="list-group w-auto" style="background-color:#FFE4C4;">
+  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" style="background-color:#FFE4C4;" aria-current="true">
+    <div class="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 class="mb-0">Номер</h6>
+        <p class="mb-0 opacity-75">+79054298999</p>
+      </div>
+    </div>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" style="background-color:#FFE4C4;" aria-current="true">
+    <div class="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 class="mb-0">Почта</h6>
+        <p class="mb-0 opacity-75">Kovaleva-Kk0@yandex.ru</p>
+      </div>
+    </div>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" style="background-color:#FFE4C4;" aria-current="true">
+    <div class="d-flex gap-2 w-100 justify-content-between">
+      <div>
+        <h6 class="mb-0">Телеграмм</h6>
+        <p class="mb-0 opacity-75">@Kkovalevs</p>
+      </div>
+    </div>
+  </a>
+</div>
+{% include 'components/footer.html' %}
+</body>
+</html>

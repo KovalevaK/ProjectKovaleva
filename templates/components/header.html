@@ -1,0 +1,10 @@
+<div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+
+      	<li class="nav-item"><a href="/notebook/" {% if request.path == '/notebook/' %} class="nav-links" {% else %} class="nav-link" {% endif %} style="color:#8B4513;">Ноутбук</a></li>
+      	<li class="nav-item"><a href="/" {% if request.path == '/' %} class="nav-links" {% else %} class="nav-link" {% endif %} aria-current="page" style="color:#8B4513;">Главная</a></li>
+        <li class="nav-item"><a href="/contacts/" {% if request.path == '/contacts/' %} class="nav-links" {% else %} class="nav-link" {% endif %} style="color:#8B4513;">Контакты</a></li>
+       </ul>
+    </header>
+  </div>
